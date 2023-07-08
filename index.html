@@ -19,21 +19,21 @@
                 <button id="add-task">Add</button>
             </div>
             <ul id="todos-container">
-                <!-- <li class="checked">Task - 1</li>
-                <li>Task - 2</li>
-                <li>Task - 3</li> -->
+                <!-- Dynamic list items will be added here -->
             </ul>
         </div>
     </div>
 
+    <!-- Include jQuery library if not available -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
-        <script>
-            if (!window.jQuery) {
-                document.write('<script src="./assets/jquery.js"><\/script>');
-            }
-        </script>
+    <!-- Conditionally load local jQuery file if needed -->
+    <script>
+        if (!window.jQuery) {
+            document.write('<script src="./assets/jquery.js"><\/script>');
+        }
+    </script>
     <script async src="./script.js"></script>
 
 </body>
