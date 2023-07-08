@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo - App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <h2>To-Do List
+                <img src="./assets/todo.svg" alt="todo_image" role="img">
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Write your task here...">
+                <button id="add-task">Add</button>
+            </div>
+            <ul id="todos-container">
+                <!-- <li class="checked">Task - 1</li>
+                <li>Task - 2</li>
+                <li>Task - 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+        <script>
+            if (!window.jQuery) {
+                document.write('<script src="./assets/jquery.js"><\/script>');
+            }
+        </script>
+    <script async src="./script.js"></script>
+
+</body>
+
+</html>
